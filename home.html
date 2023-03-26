@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - S.C Bose Residential School</title>
+
+    <link rel="icon" href="./images/logo.jpeg" />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- swiper css link  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <img
+        src="./images/logo.jpeg"
+        alt=""
+        style="
+          height: 5rem;
+          width: 5rem;
+          margin-right: 1rem;
+          border-radius: 50%;
+        "
+      />
+      <a href="#" class="logo" style="color: red">
+        S.C. Bose Residential School
+      </a>
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="home.html">home</a>
+        <a href="about.html">about</a>
+        <a href="courses.html">courses</a>
+        <a href="contact.html">contact</a>
+      </nav>
+
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- account form section starts  -->
+
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+
+      <div class="buttons">
+        <span class="btn active login-btn">login</span>
+        <span class="btn register-btn">register</span>
+      </div>
+
+      <form class="login-form active" action="">
+        <h3>login now</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password?</a>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+
+      <form class="register-form" action="">
+        <h3>register now</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <input
+          type="password"
+          placeholder="confirm your password"
+          class="box"
+        />
+        <input type="submit" value="register now" class="btn" />
+      </form>
+    </div>
+
+    <!-- account form section ends -->
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-4.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>"Where learning is a lifelong journey"!</h3>
+              <a href="./contact.html" class="btn">get Admission</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-7.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>The Place where children gets Divine Knowledge!</h3>
+              <a href="./contact.html" class="btn">get Admission</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-6.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>the best School in your city!</h3>
+              <p>
+                All children start their school careers with sparkling
+                imaginations, fertile minds, and a willingness to take risks
+                with what they think
+              </p>
+              <a href="./contact.html" class="btn">get Admission</a>
+            </div>
+          </section>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- subjects section starts  -->
+
+    <section class="subjects">
+      <h1 class="heading">our popular subjects</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/subject-icon-1.png" alt="" />
+          <h3>Arts & Drawing</h3>
+          <p>100 Student Enrolled</p>
+        </div>
+
+        <div class="box">
+          <img src="images/subject-icon-2.png" alt="" />
+          <h3>mathemetics</h3>
+          <p>60 Student Enrolled</p>
+        </div>
+
+        <div class="box">
+          <img src="images/subject-icon-3.png" alt="" />
+          <h3>Computer</h3>
+          <p>50 Student Enrolled</p>
+        </div>
+
+        <div class="box">
+          <img src="images/subject-icon-4.png" alt="" />
+          <h3>Social Study</h3>
+          <p>40 Student Enrolled</p>
+        </div>
+
+        <div class="box">
+          <img src="images/subject-icon-5.png" alt="" />
+          <h3>science</h3>
+          <p>110 Student Enrolled</p>
+        </div>
+
+        <div class="box">
+          <img src="images/subject-icon-6.png" alt="" />
+          <h3>English</h3>
+          <p>10 Student Enrolled</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- subjects section ends -->
+
+    <!-- home courses slider section starts  -->
+
+    <section class="home-courses">
+      <h1 class="heading">our Facilites</h1>
+
+      <div class="swiper home-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-7.png" alt="" />
+              <h3>Library</h3>
+            </div>
+            <div class="content">
+              <h3>Library</h3>
+              <p>
+                Our Library, the Heart and Hallmark of the Institution, is doing
+                a yeoman’s job for its intellectual growth. It is a
+                Knowledge-based pool of Print and E-reading material catering to
+                the needs of the students and faculty.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="/updated_images/lab1.jpg" alt="" />
+              <h3>Computer Lab</h3>
+            </div>
+            <div class="content">
+              <h3>Computer Lab</h3>
+              <p>
+                Our Computer Lab is open to all students from Grade 1 to Grade
+                10. All computers have access to applications for word
+                processing, spreadsheets, presentations and databases.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="updated_images/OneToOneMentoring.jpg" alt="" />
+              <h3>One to One Mentorship</h3>
+            </div>
+            <div class="content">
+              <h3>One to One Mentorship</h3>
+              <p>
+                One on one mentoring is the most common format for a mentoring
+                relationship.Everyone has life skills and experience to share as
+                a mentor. One word, one hour can be all that’s needed to effect
+                a positive change in someone.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper home-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-10.jpg" alt="" />
+              <h3>PlayGround</h3>
+            </div>
+            <div class="content">
+              <h3>PlayGround</h3>
+              <p>
+                We have a great PlayGround for children where child can explore
+                their interest towards games and sports. It provides an
+                environment for children that facilitates play, typically
+                outdoors.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="updated_images/hostel_image.jpg" alt="" />
+              <h3>Hostel Facilites</h3>
+            </div>
+            <div class="content">
+              <h3>Hostel Facilites</h3>
+              <p>
+                S.C Bose Residential School provides state of the art hostel
+                facility for its students. There are total 7 hostels inlcuding a
+                newly build girl's hostel. All the hostels are well maintained
+                and are equipped with all the modern facilities.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-12.jpg" alt="" />
+              <h3>Vechile Facilites</h3>
+            </div>
+            <div class="content">
+              <h3>Vechile Facilites</h3>
+              <p>
+                School Buses are spacious with a required capacity to
+                accommodate students. Every bus has a teacher to ensure proper
+                discipline and safety of students. School Bus driver are
+                responsible to pick & drop the children to their respective
+                stops.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper home-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-13.jpg" alt="" />
+              <h3>CCTV surveillance</h3>
+            </div>
+            <div class="content">
+              <h3>CCTV surveillance</h3>
+              <p>
+                The School is under CCTV cameras surveillance, which is being
+                used to provide surveillance and to monitor and keep track of
+                all the activites that take place inside the premises of the
+                school.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <!-- <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-14.jpg" alt="" />
+              <h3>Mess Facilites</h3>
+            </div>
+            <div class="content">
+              <h3>Mess Facilites</h3>
+              <p>
+                Special Consideration is taken into account regarding the
+                cleanliness of our mess. At every level, we try to create a home
+                for your kids at hour boarding house. The food is as healthy as
+                feasible and prepared with love.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div> -->
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-16.jpg" alt="" />
+              <h3>Preparation for JNV</h3>
+            </div>
+            <div class="content">
+              <h3>Preparation for JNV</h3>
+              <p>
+                Best Jawahar Navodaya Vidyalaya Coaching is provided in your
+                city by S.C Bose Residential School. Our main aim is to focus on
+                Basic Knowledge of the students. The Competition for admission
+                to Sainik School is very tough and success rate is less than 5%.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-20.jpg" alt="" />
+              <h3>Preparation for Simultula</h3>
+            </div>
+            <div class="content">
+              <h3>Preparation for Simultula</h3>
+              <p>
+                Best Simultula School Coaching is provided in your city by S.C
+                Bose Residential School. Our main aim is to focus on Basic
+                Knowledge of the students. The Competition for admission to
+                Sainik School is very tough and success rate is less than 5%.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-18.jpg" alt="" />
+              <h3>Preparation for Netarhat</h3>
+            </div>
+            <div class="content">
+              <h3>Preparation for Netarhat</h3>
+              <p>
+                Best Netarhat Coaching is provided in your city by S.C Bose
+                Residential School. Our main aim is to focus on Basic Knowledge
+                of the students. The Competition for admission to Sainik School
+                is very tough and success rate is less than 5%.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-19.jpg" alt="" />
+              <h3>Preparation for Sanik School</h3>
+            </div>
+            <div class="content">
+              <h3>Preparation for Sanik School</h3>
+              <p>
+                Best Sanik School Coaching is provided in your city by S.C Bose
+                Residential School. Our main aim is to focus on Basic Knowledge
+                of the students. The Competition for admission to Sainik School
+                is very tough and success rate is less than 5%.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- home courses slider section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <img
+            src="./images/logo.jpeg"
+            alt=""
+            style="height: 5rem; width: 5rem; border-radius: 50%"
+          />
+          <h3 style="color: red">S.C Bose Residential School</h3>
+          <p>
+            Based on CBSE Pattern,An English Medium Day-Cum Residential School.
+            <span style="color: blue">Address:</span>Halsi Lakhisarai (200
+            meter) from SBI Bank Halsi Towards Lakhisarai
+          </p>
+
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="home.html" class="link">home</a>
+          <a href="about.html" class="link">about</a>
+          <a href="courses.html" class="link">courses</a>
+          <a href="contact.html" class="link">contact</a>
+        </div>
+
+        <div class="box">
+          <h3>useful links</h3>
+          <a href="#" class="link">help center</a>
+          <a href="#" class="link">ask questions</a>
+          <a href="#" class="link">send feedback</a>
+          <a href="#" class="link">private policy</a>
+          <a href="#" class="link">terms of use</a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest upadates</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="enter your email"
+              id=""
+              class="email"
+            />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+
+      <!-- <div class="credit"> created by <span><a href="https://wa.me/9693882391?text=Hello Ritik I want to contact you regarding Website Development." style="font-size:2rem; color:#e2725b;" target="_blank">Ritik Kumar</a></span> | all rights reserved! </div> -->
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
